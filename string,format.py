@@ -8,4 +8,4 @@ num2 = 10.2903948
 
 # USING F-STRINGS
 
-print(f'num1 is {num1} and num2 is {num2}')
+print(f'num1 is {num1:.4f} and num2 is {num2:.4f}')
