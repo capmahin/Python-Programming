@@ -4,5 +4,12 @@ ninjas = ['ryu', 'crystal', 'yoshi', 'ken']
 #     print(ninja)
 
 
-for ninja in ninjas[1:3]:
-    print(ninjas)
+# for ninja in ninjas[1:3]:
+#     print(ninja)
+
+
+for ninja in ninjas:
+    if ninja == 'yoshi':
+        print(f'{ninja} - black belt')
+    else:
+        print(ninja)
