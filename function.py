@@ -10,5 +10,4 @@ radius = int(input('Enter the radius:'))
 length = int(input('Enter a length:'))
 
 
-area_calc = area(radius)
-vol(area_calc, length)
+vol(area(radius), length)
