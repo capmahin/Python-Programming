@@ -1,5 +1,14 @@
 def area(radius):
-    print(3.142*radius*radius)
+    return 3.142*radius*radius
 
 
-area(5)
+def vol(area, length):
+    print(area*length)
+
+
+radius = int(input('Enter the radius:'))
+length = int(input('Enter a length:'))
+
+
+area_calc = area(radius)
+vol(area_calc, length)
