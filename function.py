@@ -1,9 +1,5 @@
-def greet(name, time):
-    print(f"Good {time} {name}, hope you are well")
+def area(radius):
+    print(3.142*radius*radius)
 
 
-name = input('Enter your name:')
-time = input('Enter the time of day:')
-
-
-greet(name, time)
+area(5)
