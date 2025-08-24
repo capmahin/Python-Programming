@@ -1,4 +1,7 @@
 class Planet:
+
+    shape = 'round'
+
     def __init__(self, name, radius, gravity, system):
         self.name = name
         self.radius = radius
@@ -20,3 +23,4 @@ print(f'Name is: {naboo.name}')
 print(f'Radius is: {naboo.radius}')
 print(f'Gravity is: {naboo.gravity}')
 print(naboo.orbit())
+print(Planet.shape)
